@@ -2,8 +2,7 @@
 
 ## 📖 Project Overview
 This project is a **DIY model of a windmill** designed to generate electricity using a gear motor and power a **scrolling LED display**.  
-The setup demonstrates how renewable wind energy can be harnessed, regulated, and stored to run small electronic devices.
-
+These setup is a minature model of actual wind turbine and current produced is stored in a rechargeable battery and later used for many application here used to power an scrolling diaplay.
 ---
 
 ## ⚡ Components Used
@@ -60,5 +59,4 @@ The setup demonstrates how renewable wind energy can be harnessed, regulated, an
 
 ---
 
-## 🙌 Acknowledgment
-This is a student DIY project aimed at exploring **renewable energy applications** and demonstrating how wind energy can be converted into usable electrical power.  
+
