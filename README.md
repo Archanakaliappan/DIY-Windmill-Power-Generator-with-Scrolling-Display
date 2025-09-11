@@ -26,18 +26,18 @@ This project demonstrates how to generate electricity using a DIY windmill and u
 ---
 
 ## 📊 Block Diagram
-![Block Diagram](images/block_diagram.png)
+![Block Diagram](block_diagram.png)
 
 ---
 
 ## 🔌 Circuit Diagram
-![Circuit Diagram](images/circuit_diagram.png)
+![Circuit Diagram](circuit_diagram.png)
 
 ---
 
 ## 💻 Arduino Code
 The full code is available here:  
-[scrolling_display.ino](code/scrolling_display.ino)
+[scrolling_display.ino](scrolling_display.ino)
 
 ---
 
