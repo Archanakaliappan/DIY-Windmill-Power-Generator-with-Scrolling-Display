@@ -1,61 +1,51 @@
-# DIY-Windmill-Power-Generator-with-Scrolling-Display
+# DIY Windmill Power Generator with Scrolling Display
 
-## 📖 Project Overview
-This project is a **DIY model of a windmill** designed to generate electricity using a gear motor and power a **scrolling LED display**.  
-These setup is a minature model of actual wind turbine and current produced is stored in a rechargeable battery and later used for many application here used to power an scrolling diaplay.
----
-
-## ⚡ Components Used
-- Gear Motor (acts as the generator)  
-- 1N4007 Diode × 1 (prevents reverse current flow)  
-- Electrolytic Capacitors 35V × 2 (parallel connection for voltage stabilization)  
-- LM7805 Voltage Regulator × 1 (provides stable 5V output)  
-- Filter Capacitor 25V × 1 (smoothens regulator output)  
-- 2-Pin Sockets × 2 (for battery and external devices)  
-- Rechargeable Batteries × 2 (used to power Arduino & scrolling display)  
-- LED Indicator (shows energy generation/storage)  
-- Scrolling Display (output device)  
-- Wires, connectors, and base structure  
+This project demonstrates how to generate electricity using a DIY windmill and utilize the power to drive a scrolling LED display.  
 
 ---
 
-## ⚙️ Working Principle
-1. **Wind Rotation → Gear Motor**  
-   - The wind rotates the turbine blades connected to a **gear motor**.  
-   - The motor converts mechanical energy into electrical energy.  
-
-2. **Current Protection**  
-   - Electricity passes through a **1N4007 diode** to block reverse current flow.  
-
-3. **Voltage Stabilization**  
-   - The generated voltage is stabilized using **2 electrolytic capacitors (35V)** connected in parallel.  
-
-4. **Voltage Regulation**  
-   - A single **LM7805 voltage regulator** maintains a constant **5V output** for safe charging.  
-   - An additional **25V filter capacitor** smoothens the regulator output.  
-
-5. **Energy Storage & Usage**  
-   - Energy is stored in **two rechargeable batteries**.  
-   - A **socket** connects the battery to power the Arduino-based scrolling display.  
-   - An **LED indicator** lights up whenever energy is being generated and stored.  
-
-6. **Final Output**  
-   - The stored energy powers the **scrolling LED display**, completing the cycle of wind-to-electricity conversion.  
+## ⚡ Features
+- DIY windmill setup with a gear motor to generate electricity.
+- Power regulated and stabilized using diodes, capacitors, and voltage regulator.
+- Stored energy powers a scrolling LED display driven by Arduino.
+- Simple circuit, easy to replicate for learning and demonstrations.
 
 ---
 
-## 📷 Project Media
-- Circuit diagram → *(upload in `CircuitDiagram/` folder)*  
-- Photos of DIY windmill setup → *(upload in `Images/` folder)*  
-- Arduino code → *(upload in `Code/` folder)*  
+## 🛠️ Components Used
+- 1 × Gear Motor  
+- 1 × 1N4007 Diode  
+- 2 × Electrolytic Capacitors (35V)  
+- 1 × LM7805 Voltage Regulator  
+- 1 × Filter Capacitor (25V)  
+- 2 × Rechargeable Batteries  
+- 1 × Arduino Board  
+- 1 × LED Scrolling Display  
+- Wires, sockets, and connectors  
 
 ---
 
-## 📌 How to Run
-1. Place the windmill in an area with sufficient airflow.  
-2. Ensure connections match the provided circuit diagram.  
-3. Observe the LED indicator to confirm power generation.  
-4. Check the scrolling display running on stored battery power.  
+## 📊 Block Diagram
+![Block Diagram](images/block_diagram.png)
+
+---
+
+## 🔌 Circuit Diagram
+![Circuit Diagram](images/circuit_diagram.png)
+
+---
+
+## 💻 Arduino Code
+The full code is available here:  
+[scrolling_display.ino](code/scrolling_display.ino)
+
+---
+
+## 🚀 How to Run
+1. Build the circuit as shown in the diagrams.  
+2. Upload the Arduino code (`scrolling_display.ino`) to the board.  
+3. Rotate the windmill to generate electricity.  
+4. Verify that the LED display scrolls when powered.  
 
 ---
 
